@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Virtual Pool – Hỗ trợ iOS & Android</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:Inter,sans-serif;
+  background:linear-gradient(135deg,#eef4ff,#ffffff);
+  color:#111;
+}
+
+.container{
+  max-width:720px;
+  margin:auto;
+  padding:20px;
+}
+
+/* HEADER */
+.header{
+  text-align:center;
+  margin-bottom:24px;
+}
+.header h1{
+  margin:0;
+  color:#0068ff;
+}
+.header p{
+  margin-top:6px;
+  color:#555;
+  font-weight:500;
+}
+
+/* CARD */
+.card{
+  background:#fff;
+  border-radius:16px;
+  padding:18px 20px;
+  margin-bottom:16px;
+  box-shadow:0 8px 22px rgba(0,0,0,.08);
+}
+.card h2{
+  margin-top:0;
+  margin-bottom:12px;
+  color:#0068ff;
+  font-size:18px;
+}
+
+.text{
+  font-size:14.5px;
+  line-height:1.7;
+  color:#333;
+}
+
+.price{
+  line-height:1.8;
+}
+
+.link{
+  color:#0068ff;
+  font-weight:600;
+  text-decoration:none;
+}
+
+.btn{
+  display:block;
+  text-align:center;
+  padding:14px;
+  border-radius:12px;
+  text-decoration:none;
+  font-weight:700;
+  color:#fff;
+}
+
+.btn-zalo{
+  background:#0068ff;
+}
+
+/* ICON NỔI – ZALO & TIKTOK GIỐNG NHAU */
+.float-btn{
+  position:fixed;
+  right:18px;
+  width:56px;
+  height:56px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:800;
+  font-size:13px;
+  color:#fff;
+  text-decoration:none;
+  box-shadow:0 6px 16px rgba(0,0,0,.25);
+  z-index:999;
+}
+
+.float-zalo{
+  bottom:18px;
+  background:#0068ff;
+}
+
+.float-tiktok{
+  bottom:86px;
+  background:#000;
+}
+
+footer{
+  text-align:center;
+  font-size:13px;
+  color:#666;
+  margin:20px 0;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- TIÊU ĐỀ -->
+  <div class="header">
+    <h1>VIRTUAL POOL</h1>
+    <p>Hỗ trợ gói game • iOS & Android • Uy tín</p>
+  </div>
+
+  <!-- BẢNG GIÁ -->
+  <div class="card">
+    <h2>💰 Bảng giá</h2>
+    <div class="text price">
+      <b>Chuyển khoản</b><br>
+      • Gói thường (9–10 bi): <b>20.000đ</b><br>
+      • Gói full chế độ: <b>30.000đ</b><br><br>
+
+      <b>Card Viettel</b><br>
+      • Gói thường: <b>Không bán</b><br>
+      • Gói full chế độ: <b>40.000đ</b>
+    </div>
+  </div>
+
+  <!-- ZALO -->
+  <div class="card">
+    <a class="btn btn-zalo" href="https://zalo.me/0372330425" target="_blank">
+      💬 Liên hệ Zalo để mua gói
+    </a>
+  </div>
+
+  <!-- TIKTOK -->
+  <div class="card">
+    <h2>🎵 Kênh TikTok</h2>
+    <div class="text">
+      👉 Kênh chính:
+      <a class="link" href="https://www.tiktok.com/@billiards.game2" target="_blank">
+        @billiards.game2
+      </a><br><br>
+
+      👉 Kênh thứ 2:
+      <a class="link" href="https://www.tiktok.com/@billiards.game3" target="_blank">
+        @billiards.game3
+      </a>
+    </div>
+  </div>
+
+  <!-- HƯỚNG DẪN -->
+  <div class="card">
+    <h2>📲 Hướng dẫn cài đặt</h2>
+    <div class="text">
+      <b>iOS:</b> Đăng nhập App Store mình cung cấp → tải game → trong game sẽ có gói đã mua.<br><br>
+      <b>Android:</b> Sau khi mua sẽ được gửi hướng dẫn chi tiết cài đặt.
+    </div>
+  </div>
+
+  <!-- LƯU Ý -->
+  <div class="card">
+    <h2>⚠️ Lưu ý</h2>
+    <div class="text">
+      Đăng nhập <b>App Store KHÔNG bị khóa máy</b>.<br>
+      App Store không liên quan tới thiết bị.<br>
+      Chỉ rủi ro khi đăng nhập <b>iCloud trong phần Cài đặt</b>.<br><br>
+
+      ⚠️ <b>Tuyệt đối không đăng nhập iCloud trong Cài đặt.</b><br><br>
+
+      👉 Tất cả acc đều là <b>acc cộng đồng</b>, <b>không đổi được mật khẩu</b>.<br>
+      Anh em cài xong vui lòng <b>đăng xuất ra giúp mình</b>.<br><br>
+
+      Nếu anh em cần feedback (bằng chứng giao dịch), inbox Zalo để được gửi.
+    </div>
+  </div>
+
+  <footer>
+    Uy tín • An toàn • Hỗ trợ 24/7
+  </footer>
+
+</div>
+
+<!-- ICON NỔI -->
+<a class="float-btn float-tiktok"
+   href="https://www.tiktok.com/@billiards.game2"
+   target="_blank">
+  TIKTOK
+</a>
+
+<a class="float-btn float-zalo"
+   href="https://zalo.me/0372330425"
+   target="_blank">
+  ZALO
+</a>
+
+</body>
+</html>
